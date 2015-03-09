@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5C6C8" >
+
+    <include layout="@layout/base_header" android:id="@+id/include1"/>
+
+    <com.leopaard.cn.ui.MyViewPager
+        android:id="@+id/homePager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/tabLayout"
+        android:layout_below="@+id/include1" >
+    </com.leopaard.cn.ui.MyViewPager>
+
+    <include
+        android:id="@+id/tabLayout"
+        layout="@layout/bottom_layout" />
+
+</RelativeLayout>

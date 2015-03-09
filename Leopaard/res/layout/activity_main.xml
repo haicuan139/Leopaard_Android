@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".TongYongActivity_1" >
+
+    <com.leopaard.cn.ui.DragGridView
+        android:id="@+id/dragGridView"
+        android:listSelector="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:verticalSpacing="10dip"
+        android:horizontalSpacing="0.5dip"
+        android:columnWidth="80dip"
+  	    android:gravity="center" 
+        android:numColumns="auto_fit" >
+    </com.leopaard.cn.ui.DragGridView>
+
+</RelativeLayout>
