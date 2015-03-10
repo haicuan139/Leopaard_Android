@@ -1,10 +1,31 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
+    android:orientation="vertical"
     tools:context=".TongYongActivity_1" >
 
+    <com.leopaard.cn.AutoScrollViewPager
+        android:id="@+id/adPager"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+         >
+    </com.leopaard.cn.AutoScrollViewPager>
+    <com.leopaard.cn.ui.ScrollingTextView 
+        android:id="@+id/scrolltext"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="#fff777"
+        android:text="我是一只小小鸟我是一只小小鸟我是一只小小鸟我是一只小小鸟我是一只小小"
+        android:gravity="center|left"
+        android:paddingLeft="5dp"
+        android:textColor="#333333"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusable="true"
+        />
     <com.leopaard.cn.ui.DragGridView
         android:id="@+id/dragGridView"
         android:listSelector="@android:color/transparent"
@@ -19,4 +40,4 @@
         android:numColumns="auto_fit" >
     </com.leopaard.cn.ui.DragGridView>
 
-</RelativeLayout>
+</LinearLayout>

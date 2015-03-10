@@ -17,10 +17,10 @@ import android.widget.TextView;
 
 import com.leopaard.cn.ui.HomeViewPagerAdapter;
 import com.leopaard.cn.ui.LoginActivity;
-import com.leopaard.cn.ui.TongYongActivity_1;
 import com.leopaard.cn.ui.MoreActivity;
 import com.leopaard.cn.ui.MyViewPager;
 import com.leopaard.cn.ui.PeiXunActivity;
+import com.leopaard.cn.ui.TongYongActivity_1;
 import com.leopaard.cn.ui.ZiXunActivity;
 
 @SuppressWarnings("deprecation")
