@@ -1,6 +1,5 @@
 package com.leopaard.cn.ui;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import net.tsz.afinal.FinalHttp;
@@ -20,7 +19,6 @@ import com.google.gson.reflect.TypeToken;
 import com.leopaard.cn.AutoScrollViewPager;
 import com.leopaard.cn.BaseActivity;
 import com.leopaard.cn.R;
-import com.leopaard.cn.domain.AdList;
 import com.leopaard.cn.domain.AppAuthVO;
 import com.leopaard.cn.domain.CflbInformation;
 import com.leopaard.cn.domain.ImagePagerAdapter;

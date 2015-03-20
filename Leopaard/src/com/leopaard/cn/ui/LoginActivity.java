@@ -66,6 +66,9 @@ public class LoginActivity extends BaseActivity {
 									//保存用户名密码
 									setStringtForKey(USER_NAME, userEdit.getText().toString());
 									setStringtForKey(PASS_WORD , passEdit.getText().toString());
+									//保存用户id
+									String uid = user.getVal().getSu_id();
+									setStringtForKey("uid", uid);
 									finish();
 								} else {
 									Toast.makeText(getApplicationContext(),

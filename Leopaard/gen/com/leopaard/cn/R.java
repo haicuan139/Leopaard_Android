@@ -44,33 +44,37 @@ public final class R {
         public static final int white_selector=0x7f020014;
     }
     public static final class id {
-        public static final int action_settings=0x7f08001a;
+        public static final int action_settings=0x7f08001e;
         public static final int adPager=0x7f080005;
-        public static final int bottomlayout=0x7f080011;
+        public static final int bottomlayout=0x7f080015;
         public static final int button1=0x7f080002;
         public static final int dragGridView=0x7f080007;
-        public static final int header=0x7f08000c;
+        public static final int header=0x7f080010;
         public static final int homePager=0x7f080009;
         public static final int include1=0x7f080008;
-        public static final int itemImage=0x7f080018;
-        public static final int itemText=0x7f080019;
-        public static final int item_image=0x7f080016;
-        public static final int item_text=0x7f080017;
-        public static final int leftItem=0x7f08000f;
+        public static final int itemImage=0x7f08001c;
+        public static final int itemText=0x7f08001d;
+        public static final int item_image=0x7f08001a;
+        public static final int item_text=0x7f08001b;
+        public static final int leftItem=0x7f080013;
         public static final int listView=0x7f08000b;
         public static final int password=0x7f080003;
         public static final int progressbar=0x7f080000;
-        public static final int rightItem=0x7f08000e;
+        public static final int rightItem=0x7f080012;
         public static final int scrolltext=0x7f080006;
         public static final int tabLayout=0x7f08000a;
-        public static final int tab_index=0x7f080012;
-        public static final int tab_more=0x7f080015;
-        public static final int tab_my=0x7f080014;
-        public static final int tab_recommend=0x7f080013;
-        public static final int titleText=0x7f08000d;
-        public static final int topLine=0x7f080010;
+        public static final int tab_index=0x7f080016;
+        public static final int tab_more=0x7f080019;
+        public static final int tab_my=0x7f080018;
+        public static final int tab_recommend=0x7f080017;
+        public static final int takePhoto=0x7f08000f;
+        public static final int takeimage=0x7f08000c;
+        public static final int titleText=0x7f080011;
+        public static final int topLine=0x7f080014;
+        public static final int upload=0x7f08000d;
         public static final int username=0x7f080004;
         public static final int webview=0x7f080001;
+        public static final int xiangce=0x7f08000e;
     }
     public static final class layout {
         public static final int activity_h5page=0x7f030000;
@@ -80,12 +84,13 @@ public final class R {
         public static final int activity_more=0x7f030004;
         public static final int activity_peixun=0x7f030005;
         public static final int activity_splash=0x7f030006;
-        public static final int activity_zixun=0x7f030007;
-        public static final int base_header=0x7f030008;
-        public static final int bottom_layout=0x7f030009;
-        public static final int grid_item=0x7f03000a;
-        public static final int list_item=0x7f03000b;
-        public static final int other_header=0x7f03000c;
+        public static final int activity_uploadimage=0x7f030007;
+        public static final int activity_zixun=0x7f030008;
+        public static final int base_header=0x7f030009;
+        public static final int bottom_layout=0x7f03000a;
+        public static final int grid_item=0x7f03000b;
+        public static final int list_item=0x7f03000c;
+        public static final int other_header=0x7f03000d;
     }
     public static final class menu {
         public static final int main=0x7f070000;
