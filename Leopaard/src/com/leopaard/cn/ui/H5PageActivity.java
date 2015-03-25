@@ -28,8 +28,7 @@ public class H5PageActivity extends BaseActivity implements
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_h5page);
 		mProgressBar = (ProgressBar) findViewById(R.id.progressbar);
-		// String url = getIntent().getStringExtra("url");
-		String url = "http://192.168.1.101:8080/cflbcode/html/qd.html";
+		 String url = getIntent().getStringExtra("url");
 		mWebView = (WebView) findViewById(R.id.webview);
 		mWebView.loadUrl(url);
 		initWebSetting(mWebView);
